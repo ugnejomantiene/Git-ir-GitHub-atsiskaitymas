@@ -19,6 +19,7 @@ padding: 10px 15px;
     text-transform: uppercase;
     text-align: center;
 }
+
 .empty {
     height: 20px;
     width: 1px;
@@ -26,3 +27,7 @@ padding: 10px 15px;
     text-align: center;
 }
 
+.line {
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
