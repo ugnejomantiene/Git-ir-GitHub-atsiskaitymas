@@ -1,0 +1,7 @@
+.nc {
+    width: 100%;
+}
+.nc:hover {
+    scale: 1.1;
+    transition: 2s;
+}
