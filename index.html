@@ -26,11 +26,27 @@
             </p>
           </section>
           <section class="mainpage_nav">
-            <button type="button">Intro</button>
-            <button type="button">Work</button>
-            <button type="button">About</button>
-            <button type="button">Contact</button>
+            <button type="button" onclick="showCard(event)">Intro</button>
+            <div id="intro-text" style="display:none"> 
+              <iframe src="./resources/tab-1.mp4" frameborder="0" ></iframe>
+              <h2>INTRO</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus reprehenderit magnam quasi velit dolores perspiciatis at magni odit dolore corrupti non quis sed officia asperiores fuga, exercitationem consectetur aspernatur.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus reprehenderit magnam quasi velit dolores perspiciatis at magni odit dolore corrupti non quis sed officia asperiores fuga, exercitationem consectetur aspernatur.</p>
+            </div>
+          
+            <button type="button" onclick="showCard(event)">Work</button>
+            <p id="work-text" style="display:none;">Hello, this is the work text!</p>
+          
+            <button type="button" onclick="showCard(event)">About</button>
+            <p id="about-text" style="display:none;">Hello, this is the about text!</p>
+          
+            <button type="button" onclick="showCard(event)">Contact</button>
+            <p id="contact-text" style="display:none;">Hello, this is the contact text!</p>
           </section>
+          <div id="card" class="card" style="display:none;">
+            <p id="card-text"></p>
+          </div>
+
         </main>
     
 </body>
