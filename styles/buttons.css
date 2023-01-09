@@ -9,6 +9,8 @@ button {
 button:hover {
     background-color: rgba(240, 248, 255, 0.533);
     transition: 1s;
+    scale: 1.1;
+    margin: 0 10px;
 
 }
 
