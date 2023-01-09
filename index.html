@@ -9,6 +9,57 @@
     <script src="main.js" defer></script>
 </head>
 <body>
+    <img class="bg" src="./resources/bg.jpg" alt="main">
+    <div id="wrapper">
+        <header class="header">
+          <div class="gem">
+            <img src="./resources/gem-regular.svg" alt="gem">
+          </div>
+          <div class="empty"> </div>
+        </header>
+        <main class="main">
+          <section class="main_hero">
+            <h1>Metaverse</h1>
+            <p class="line">
+              Innovation that will shape how we connect in the world an
+              opportunity for everybody.
+            </p>
+            <br>
+          </section>
+          <section class="mainpage_nav">
+            <button type="button" onclick="showCard(event)">Intro</button>
+            <div id="intro-text" style="display:none"> 
+              <h2>INTRO</h2>
+              <video src="./resources/tab-1.mp4" autoplay loop muted></video>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus reprehenderit magnam quasi velit dolores perspiciatis at magni odit dolore corrupti non quis sed officia asperiores fuga, exercitationem consectetur aspernatur.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem delectus reprehenderit magnam quasi velit dolores perspiciatis at magni odit dolore corrupti non quis sed officia asperiores fuga, exercitationem consectetur aspernatur.</p>
+            </div>
+          
+            <!-- Other -->
+
+            <button type="button" onclick="showCard(event)">Work</button>
+            <div id="work-text" style="display:none;">
+              <h2>WORK</h2>
+              <img class="nc" src="./resources/tab-2.jpg" alt="work">
+            </div>
+
+            <button type="button" onclick="showCard(event)">About</button>
+            <div id="about-text" style="display:none;">
+              <h2>ABOUT</h2>
+              <img class="nc"src="./resources/tab-3.jpg" alt="about">
+            </div>
+          
+            <button type="button" onclick="showCard(event)">Contact</button>
+            <div id="contact-text" style="display:none;">
+              <h2>CONTACT</h2>
+              <img class="nc"src="./resources/tab-4.jpg" alt="con"></div>
+          </section>
+
+          <div id="card" class="card" style="display:none;">
+            <p id="card-text"></p>
+          </div>
+
+        </main>
     
 </body>
 </html>

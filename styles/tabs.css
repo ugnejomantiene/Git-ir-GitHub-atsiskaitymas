@@ -1,0 +1,47 @@
+
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  box-sizing: border-box;
+}
+
+#card {
+  display: flex;
+  height: auto;
+  box-sizing: border-box;
+  margin: 50px;
+  background-color: rgb(26, 28, 31);
+}
+#card-text {
+  width: 70%;
+  height: auto;
+}
+#card-text p {
+  font-size: 20px;
+}
+video {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+h2 {
+  border-bottom: 1px solid white;
+  width: 20%;
+  font-size: 1rem;
+}
+
+@media  (min-width: 700px) {
+  iframe {
+    height: 300px;
+    width: 500px;
+  }
+}
