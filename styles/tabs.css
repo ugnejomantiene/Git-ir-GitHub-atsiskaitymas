@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   font-size: 2em;
+  box-sizing: border-box;
 }
 
 #card {
@@ -27,9 +28,10 @@
 #card-text p {
   font-size: 20px;
 }
-iframe {
+video {
   width: 100%;
-  height: 200px;
+  height: 300px;
+  object-fit: cover;
 }
 h2 {
   border-bottom: 1px solid white;
